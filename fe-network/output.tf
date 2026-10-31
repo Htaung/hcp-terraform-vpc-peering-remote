@@ -23,6 +23,6 @@ output "frontend_private_rtb03_id" {
   value = aws_route_table.frontend_private_rtb03.id
 }
 
-output "frontend_natgw_eip_id" {
+output "frontend_natgw_eip_id_1" {
   value = aws_eip.frontend_natgw_eip.id
 }
