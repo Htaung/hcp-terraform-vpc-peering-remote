@@ -10,7 +10,7 @@ variable "region" {
 
 variable "frontend_prefix" {
   description = "The prefix for the frontend resources."
-  default     = "hc-frontend"
+  default     = "hc-frontend"   
 }
 
 variable "frontend_environment" {
