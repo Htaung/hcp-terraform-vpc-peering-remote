@@ -10,7 +10,7 @@ resource "aws_vpc_security_group_ingress_rule" "fe_public_sgp01_allow_ssh" {
   security_group_id = aws_security_group.frontend_public_sgp_1.id
   cidr_ipv4         = "116.86.53.71/32"
   from_port         = 22
-  ip_protocol       = "tcp"
+  ip_protocol       = "tcp" 
   to_port           = 22
 }
 
