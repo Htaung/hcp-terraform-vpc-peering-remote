@@ -3,7 +3,7 @@ output "backend_vpc_id" {
 }
 
 
-output "backend_pub_subnet1_id" {
+output "backend_pub_subnet1_id" {     
   value = aws_subnet.backend_pub_subnet1.id
 }
 output "backend_private_subnet1_id" {
