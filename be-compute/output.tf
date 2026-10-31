@@ -1,6 +1,6 @@
 #### Backend Outputs
 
-output "be_instances_private_key" {
+output "be_instances_private_key" {    
   description = "Private key for SSH access"
   value       = tls_private_key.be_keypair.private_key_openssh
   sensitive   = true
