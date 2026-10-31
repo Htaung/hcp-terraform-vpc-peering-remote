@@ -15,7 +15,7 @@ variable "frontend_prefix" {
 
 variable "frontend_environment" {
   description = "The environment for the frontend resources."
-  default     = "dev"
+  default     = "dev"   
 }
 
 variable "frontend_vpc_cidr_block" {
